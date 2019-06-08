@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txttenhopthoaicapnhat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Tên"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/txtsdthopthoaicapnhat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/txtchitiethopthoaicapnhat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Chi tiết"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnluucapnhat"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Lưu"
+
+            />
+
+        <Button
+            android:id="@+id/btnhuycapnhat"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hủy"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

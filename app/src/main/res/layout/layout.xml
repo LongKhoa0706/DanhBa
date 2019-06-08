@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm "
+        android:textSize="24dp"
+        android:textAlignment="center"
+       />
+
+    <EditText
+        android:id="@+id/txtmahopthoai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Mã"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/txttenhopthoai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:inputType="textPersonName"
+        android:hint="Tên" />
+
+
+    <EditText
+        android:id="@+id/txtsdthopthoai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:background="@drawable/input"
+        android:hint="Số điện thoại"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/txtchitiethopthoai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:hint="Chi tiết"
+        android:background="@drawable/input"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnluu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>

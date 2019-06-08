@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+                android:id="@+id/txtTen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Thông"
+                android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txtSdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0393169324"
+            android:textSize="22dp"
+            android:textColor="#FF9800"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/btnLvGoi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/call"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <ImageView
+                android:id="@+id/btnLvTn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/sms"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <ImageView
+                android:id="@+id/btnChiTiet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chitiet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
